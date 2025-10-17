@@ -164,15 +164,9 @@ function sendEmail() {
 		email:document.querySelector('#email').value,
 		subject:document.querySelector("#subject").value,
 		message:document.querySelector("#message").value,
-	}
-};
+	};
 
-var templateParams = {
-  name: '',
-  notes: '',
-};
-
-emailjs.send('', 'template_hlkly9r', templateParams).then(
+emailjs.send('service_65lhgli', 'template_hlkly9r', templateParams).then(
   (response) => {
     console.log('SUCCESS!', response.status, response.text);
   },
@@ -180,3 +174,5 @@ emailjs.send('', 'template_hlkly9r', templateParams).then(
     console.log('FAILED...', error);
   },
 );
+
+};
