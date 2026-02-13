@@ -7,6 +7,16 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.logo{
+	  font-family: "Playfair Display", serif;
+	  font-style: italic;
+	  font-size: medium;
+}
+
+.nav-link{
+	font-weight: bolder;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1760,7 +1770,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #aaa;
+		color: #040482;
 		position: relative;
 		margin: 0 0 1.6875em 0;
 	}
@@ -1791,7 +1801,7 @@ input, select, textarea {
 		}
 
 		header.major h2 + p {
-			color: #777;
+			color: #002184;
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
@@ -2189,12 +2199,12 @@ input, select, textarea {
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			border-radius: 5%;
 			overflow: hidden;
 		}
 
 			.image.avatar img {
-				border-radius: 100%;
+				border-radius: 5%;
 				display: block;
 				width: 100%;
 			}
@@ -2707,7 +2717,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #003580;
+		background: #323232;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
